@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato</title>
+  <link rel="stylesheet" href="static/css/bootstrap.min.css"> </head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-info">
+    <div class="container">
+	<b class="bg-info text-uppercase text-light">Saúde &amp; Vida</b></a>
+        <ul class="navbar-nav bg-danger">
+          <li class="nav-item text-nowrap bg-light text-capitalize d-flex">
+            <a class="nav-link text-dark" href="{{url_for('Home')}}"><i class="fa d-inline fa-lg fa-bookmark-o"></i>Home</a>
+          </li>
+          <li class="nav-item bg-light text-capitalize">
+            <a class="nav-link text-dark" href="{{url_for('Contato')}}"><i class="fa d-inline fa-lg fa-envelope-o"></i>Contato</a>
+          </li>
+          <li class="nav-item bg-light text-capitalize">
+            <a class="nav-link text-dark" href="{{url_for('Sobre')}}"><i class="fa d-inline fa-lg fa-envelope-o"></i>Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="py-5 text-white bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="d-block" src="static/img/social-media-2786261_1920.jpg" height="450" width="550"> </div>
+        <div class="col-md-6">
+          <h1 class="text-dark">Contatos</h1>
+          <p class="text-dark">Gostaríamos de saber sua Opinião</p>
+          <form>
+            <div class="form-group"> <label for="InputName" class="text-dark text-uppercase">Nome</label>
+              <input type="text" class="form-control text-secondary" id="InputName" placeholder="Seu nome"> </div>
+            <div class="form-group"> <label for="InputEmail1" class="text-dark text-uppercase">Email</label>
+              <input type="email" class="form-control" id="InputEmail1" placeholder="Seu email"> </div>
+            <div class="form-group"> <label for="Textarea" class="text-dark text-uppercase">Mensagem</label> <textarea class="form-control" id="Textarea" rows="3" placeholder="Escreva aqui sua mensagem"></textarea> </div>
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="static/js/popper.min.js"></script>
+
+</body>
+
+</html>

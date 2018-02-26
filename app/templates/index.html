@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saúde & Vida</title>
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+</head>
+<body class="text-success border border-primary">
+  <nav class="navbar navbar-expand-md navbar-light bg-info">
+    <div class="container">
+	     <b class="bg-info text-uppercase text-light">Saúde &amp; Vida</b></a>
+        <ul class="navbar-nav bg-danger">
+          <li class="nav-item text-nowrap bg-light text-capitalize d-flex">
+            <a class="nav-link text-dark" href="{{url_for('Home')}}"><i class="fa d-inline fa-lg fa-bookmark-o"></i>Home</a>
+          </li>
+          <li class="nav-item bg-light text-capitalize">
+            <a class="nav-link text-dark" href="{{url_for('Contato')}}"><i class="fa d-inline fa-lg fa-envelope-o"></i>Contato</a>
+          </li>
+          <li class="nav-item bg-light text-capitalize">
+            <a class="nav-link text-dark" href="{{url_for('Sobre')}}"><i class="fa d-inline fa-lg fa-envelope-o"></i>Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row" style="margin:0px; padding:0px">
+      <div class="col" style="margin:0px; padding:0px">
+        <img src="static/img/market-897990_1920.jpg" height="200px" width="370px">
+      </div>
+      <div class="col" style="margin:0px; padding:0px">
+        <img src="static/img/vegetables-2387402_1920.jpg" height="200px" width="370px">
+      </div>
+      <div class="col" style="margin:0px; padding:0px">
+        <img src="static/img/fruits-82524_1920.jpg" height="200px" width="370px">
+      </div>
+    </div>
+  </div>
+
+<!--div class="col order-12">
+    <img src="static/img/market-897990_1920.jpg" height="200px" width="445px">
+    <img src="static/img/vegetables-2387402_1920.jpg" height="200px" width="445px">
+    <img src="static/img/fruits-82524_1920.jpg" height="200px" width="445px">
+</div-->
+  <div class="py-5 m-4 h-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-justify">
+          <h1 class="text-center text-primary">Saúde &amp; Vida</h1>
+          <p class="text-dark">A falta de uma dieta equilibrada associada ao sedentarismo fruto das facilidades da tecnologia que exige pouco esforço para executar as atividades diária, acarretados diversos problemas de saúde como: desnutrição, obesidade, diabetes, colesterol
+            alto, hipertensão, gastrite, câncer, sem falar dos distúrbios alimentares (compulsão alimentar, bulimia e anorexia) entre outras. </p>
+          <p class="text-dark">Cada vez mais faz-se necessário repensar as mudança de hábitos para ter uma vida longa e saudável. Aqui segue algumas dicas imprescindíveis ter uma vida saudável:</p>
+          <p class="text-dark">Fazer 3 refeições diárias básicas, e lanches intermediários entre elas.</p>
+          <p class="text-dark">Fazer pelo menos 30 minutos diários de exercícios físicos.</p>
+          <p class="text-dark">Dormir de 7 a 9 horas diárias.</p>
+          <p class="text-dark">Não saltar refeições.</p>
+          <p class="text-dark">Dar preferência as carnes brancas, pois elas tem menos colesterol. o Peixe é a melhor opção.</p>
+          <p class="text-dark">Não fazer dietas restritivas sem conhecimento médico.</p>
+          <p class="text-dark">Moderar o uso de alimentos processados.</p>
+          <p class="text-dark">Diminuir o consumo de sal, gorduras saturadas e doces.</p>
+          <p class="text-dark">Ingerir em média de 1 a 2 litros de água por dia para evitar a desidratação.</p>
+          <p class="text-dark">Trocar os refrigerantes por sucos de frutas e água de coco, doces por frutas.</p>
+          <p class="text-dark">Não usar drogas, nem fumar cigarros.</p>
+          <p class="text-dark">Ingerir bebidas alcoólicas moderadamente.</p>
+          <p class="text-dark">Evite extremismo ao aderir a dieta saudável, se você não tiver problemas de saúde nada impede de apreciar uma boa pizza, um churrasco, um sorvete, uma pipoca com guaraná, mas só não faça dissou ma rotina.</p>
+          <p class="text-dark">Faça consultas e exames periódicos para avaliar sua saúde.</p>
+          <p class="text-dark">Meça seu IMC (índice de massa corpórea) e veja se tem necessidade de ajuda de um nutricionista.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      <h1 class="text-center text-primary">Alimentação &amp; Atividade Física</h1>
+    </div>
+    <div class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-justify">
+            <div class="row">
+              <div class="col-md-6 text-dark">
+                <img class="d-block w-100 mb-3" src="static/img/cafe-2883469_1920.jpg" height="400px" width="600px">
+                <p class="">A pirâmide alimentar é considerado a bússola para que quer ter uma dieta saudável</p>
+                <p class="">No primeiro nível da pirâmide, estão os carboidratos que são responsáveis por fornecer energia para atividades diárias. Faz parte desse grupo as batatas, mandioca, abobora, arroz e as massas. Por estarem no maior grupo, devem ser consumidos
+                  durante o dia, pois são alimentos que dão energia. Quantidade indicada 6 poções. </p>
+                <p>No segundo nível seguinte, estão os alimentos reguladores fundamentais para o bom funcionamento do organismo e para prevenir doenças faz parte desse grupo as frutas, verduras e legumes, grandes fornecedores de vitaminas, minerais e fibras,
+                  e por isso também devem ser consumidas várias vezes durante o dia. Quantidade indicada 3 poções de frutas e 3 poções de legumes e verduras. </p>
+                <p>No terceiro nível, se encontram os alimentos construtores ricos em proteínas e minerais que estão presentes nos alimentos de origem animal como ovo, aves, peixes, frutos do mar, carnes, leite e seus derivados. E nos alimentos de origem
+                  vegetal como feijões e oleaginosas. Seu consumo deve ser moderado, em porções pequenas. Quantidade indicada 1 poção de carne, 1 porção de feijões e oleaginosas e 3 poções de leite e seus derivados. </p>
+                <p>No quarto nível bem no topo da pirâmide estão os alimentos energético como os doces, os açúcares, óleos e gorduras. Eles devem ser consumidos em pequenas porções e de maneira bem mais moderada, pois são extremamente calóricos e podem causar
+                  doenças cardiovasculares, entre outras. Quantidade indicada 1 poção de gordura e 1 porção de doce. </p>
+              </div>
+              <div class="col-md-6 text-dark text-justify">
+                <img class="d-block" src="static/img/running-2984619_1920.jpg" width="530px" height="400px">
+                <br>
+                <p class="">A praticar exercícios físicos pode trazer diversos benefícios para a saúde e melhora consideravelmente o bom funcionamento do organismo, entre tantos benefícios estão: melhora da estrutura óssea- muscular, alívio de tensões musculares,
+                  redução da pressão arterial, combate ao stress, reduz a ansiedade, proporciona bem estar psicológico, aumenta a autoestima, combate diabetes do tipo II, reduz risco de infarto, combate a obesidade. </p>
+                <p>O melhor de tudo é &nbsp;que existe uma gama &nbsp;grande de modalidades para a prática de atividade física dentre eles estão exercícios aeróbicos, musculação, treinamento funcional, pilates, ioga, dança, ciclismo, hidroginástica, natação,
+                  corrida, caminhada, futebol, entre outras. </p>
+                <p>Mas antes de pratricar qualquer atividade física sempre é bom realizar uma avaliação médica para ver se você está apto a realização de atividades físicas e quais modalidades melhor se adequa a sua condição.</p>
+                <p>Escolha a sua atividade preferida e pratique com regularidade para ter mais saúde , e ficar mais forte e revigorado cada dia mais. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+  </div>
+</body>
+
+</html>
